@@ -1,6 +1,6 @@
 # theMedGemma_heckatn
 ***
-English description below!
+[Go to english description](#MVP_Objectives)
 ***
 **1. Założenia MVP**
 
@@ -17,3 +17,6 @@ English description below!
 * lista możliwych przyczyn (DDx) z poziomem pewności
 * sygnalizacja red flags → natychmiast skierować do szpitala
 * zalecenia do monitorowania lub dalszej diagnostyki
+
+
+## MVP Objectives
