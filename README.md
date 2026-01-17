@@ -18,5 +18,19 @@
 * sygnalizacja red flags → natychmiast skierować do szpitala
 * zalecenia do monitorowania lub dalszej diagnostyki
 
+**Flow:**
+
+![Flow aplikacji](images/flow.png)
+
+
+Użytkownik loguje się lokalnie (opcjonalnie offline, np. tablet/laptop)
+Wprowadza pacjenta i objawy
+MedGemma generuje możliwe diagnozy i alerty
+System pokazuje:
+czerwone flagi (red flags) → natychmiastowa akcja
+DDx z prawdopodobieństwem
+zalecenia do monitorowania / dalszych badań
+Możliwość eksportu raportu (PDF lub lokalny zapis)
+
 
 ## MVP Objectives
