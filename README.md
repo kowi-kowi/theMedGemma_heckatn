@@ -1,6 +1,6 @@
 # theMedGemma_heckatn
 ***
-Englis description below!
+English description below!
 ***
 **1. Założenia MVP**
 
