@@ -1,6 +1,6 @@
 # theMedGemma_heckatn
 ***
-[Go to english description](#MVP_Objectives)
+[Go to english description](#MVP-Objectives)
 ***
 **1. Założenia MVP**
 
