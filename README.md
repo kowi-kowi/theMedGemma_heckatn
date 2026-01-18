@@ -1,36 +1,26 @@
-# theMedGemma_heckatn
-***
-[Go to english description](#MVP-Objectives)
-***
-**1. Założenia MVP**
+# Rural Cardiac Triage Assistant
 
-**Cel:** wspiera lokalnych pracowników medycznych w podejmowaniu decyzji klinicznych, offline, prywatnie.
+![Flow aplikacji](images/logo.png)
 
-**Użytkownik:** pielęgniarka / lekarz w małej przychodni / terenowa opieka zdrowotna
+AI-powered decision support for early cardiac risk detection in rural settings.
 
-**Dane wejściowe:**
-* podstawowe informacje o pacjencie (wiek, płeć, choroby przewlekłe)
-* objawy (tekst lub wybór z listy)
-* opcjonalnie: podstawowe wyniki badań (temperatura, ciśnienie, saturacja, laboratoria)
-* 
-**Dane wyjściowe:**
-* lista możliwych przyczyn (DDx) z poziomem pewności
-* sygnalizacja red flags → natychmiast skierować do szpitala
-* zalecenia do monitorowania lub dalszej diagnostyki
+⚠️ This application is a clinical decision support prototype and does not diagnose or rule out myocardial infarction.
 
-**Flow:**
+## How it works
 
 ![Flow aplikacji](images/flow.png)
 
+1. Upload ECG image
+2. Enter patient symptoms
+3. Review ECG analysis
+4. Get triage recommendation
 
-Użytkownik loguje się lokalnie (opcjonalnie offline, np. tablet/laptop)
-Wprowadza pacjenta i objawy
-MedGemma generuje możliwe diagnozy i alerty
-System pokazuje:
-czerwone flagi (red flags) → natychmiastowa akcja
-DDx z prawdopodobieństwem
-zalecenia do monitorowania / dalszych badań
-Możliwość eksportu raportu (PDF lub lokalny zapis)
+Built using MedGemma (HAI-DEF) and Streamlit.
 
+## Demo:
 
-## MVP Objectives
+A public Streamlit demo is available via Hugging Face Spaces, allowing anyone to interact with the application directly in the browser.
+
+The demo runs on CPU for accessibility; GPU accelerates inference when available.
+
+📌 Licence: Apache 2.0
