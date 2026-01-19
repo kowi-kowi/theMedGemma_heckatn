@@ -19,7 +19,7 @@ Built using MedGemma (HAI-DEF) and Streamlit.
 
 ## Demo:
 
-A public Streamlit demo is available via Hugging Face Spaces, allowing anyone to interact with the application directly in the browser.
+A public Gradio demo is available via Hugging Face Spaces, allowing anyone to interact with the application directly in the browser [MedGemma Cardiac Triage Assistant](https://huggingface.co/spaces/kowi-kowi/MedGemma_CardiacTriageAssistant).
 
 The demo runs on CPU for accessibility; GPU accelerates inference when available.
 
